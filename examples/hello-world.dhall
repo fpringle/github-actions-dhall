@@ -1,6 +1,6 @@
 let GithubActions =
       ../package.dhall
-        sha256:e36535a647eb3997d0e9baba3a843f55f097fad4adc7bc9c1499efccfcb97f13
+        sha256:2a07d666382ef341c55d9df95a08959c932ac7c0a3829774a7544c8237aa201c
 
 let helloWorld =
       GithubActions.steps.actions/helloWorld

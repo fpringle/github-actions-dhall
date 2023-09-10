@@ -76,4 +76,7 @@
 , MergeGroup =
     ./schemas/events/MergeGroup.dhall
       sha256:4a3e8748d9a20ab6beec8bd7dcca67b465e600563c5dbfca4cd3d464c9f69dcb
+, OrGHExpression =
+    ./schemas/OrGHExpression.dhall
+      sha256:5de28b5f8e6632f71711de711c69a71b6351f266f4b7219a45dfdf9c09fd9edb
 }
