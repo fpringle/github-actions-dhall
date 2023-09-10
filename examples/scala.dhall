@@ -1,9 +1,14 @@
 let GithubActions =
-      https://regadas.dev/github-actions-dhall/package.dhall
-        sha256:71df44892a17abca817cfb35e2612d117f7fceec55114a6eb76b65a7eea4e6f4
+      ../package.dhall
+        sha256:e36535a647eb3997d0e9baba3a843f55f097fad4adc7bc9c1499efccfcb97f13
+
+let ListTextOrGH = GithubActions.types.OrGHExpression (List Text)
 
 let matrix =
-      toMap { java = [ "8.0.232", "11.0.5" ], scala = [ "2.11.12", "2.12.11" ] }
+      toMap
+        { java = ListTextOrGH.Value [ "8.0.232", "11.0.5" ]
+        , scala = ListTextOrGH.Value [ "2.11.12", "2.12.11" ]
+        }
 
 let setup =
       [ GithubActions.steps.actions/checkout
