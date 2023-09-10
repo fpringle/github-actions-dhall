@@ -100,4 +100,7 @@
 , ContinueOnError =
     ./types/ContinueOnError.dhall
       sha256:83ad8f8eea100277b6658ac27c590d6ee43df14e4d1fc49a55c691e1033fd3e9
+, OrGHExpression =
+    ./types/OrGHExpression.dhall
+      sha256:80d217d939ff8f6113cd44fcc1210cf9aec18334c9e09091be0fe0f302686a2f
 }
