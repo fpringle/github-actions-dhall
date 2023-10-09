@@ -55,3 +55,11 @@ name: Greeting
 on:
   pull_request: {}
   push: {}
+  workflow_dispatch:
+    inputs:
+      colour:
+        options:
+          - black
+          - white
+        required: false
+        type: string

@@ -6,7 +6,7 @@
       sha256:9ccec904643ade1050323d9ce5da865a3ad8c764a7cbc0f3c397717b1a0ece74
 , On =
     ./schemas/On.dhall
-      sha256:b1f216f4eba7db0981c3b611ca704a6ddda23ce53643cad26ddd96f0f8444e6b
+      sha256:b8d334da2706a0a35e9d21e48015535963df6e87982c1da71464b989859552d5
 , RunsOn =
     ./schemas/RunsOn.dhall
       sha256:86f5d1f0c5dc24b2033237a9194f70b14326d6bae031bd44a0630e45dd3a4b3a
@@ -21,7 +21,7 @@
       sha256:ccf7857f3b39aba24ae09b6eb2b430c96be6b3bc697ed6f0bae464e1e7bdff82
 , Workflow =
     ./schemas/Workflow.dhall
-      sha256:2a62218f710671a2e3f7adddc6ad93dc7756a0fd0a1d2630adb57fa1fed9f3c2
+      sha256:9e7416d535d525edb793aba449b1e6c21bd95791fecb65b9e834a5e838c1abef
 , Push =
     ./schemas/events/Push.dhall
       sha256:42b2efddec698fbb36321e738286478b35dfd9420ce10798659237570db55024
@@ -42,7 +42,7 @@
       sha256:03caaa6deeed4018094f9a77b2db6f49c28ca75874c44e2256e8147894c30746
 , Input =
     ./schemas/Input.dhall
-      sha256:f15ab36ac38cb32a757173088ec95050e3cb3fe8765bd1d4cc49851cec7877d8
+      sha256:6c993cbbb69ba00e935f4de0184453445993eef68a2838fce1bfcf248d7ac53b
 , Output =
     ./schemas/Output.dhall
       sha256:f01b31455186c9ecf937b48023d9408a7d5bf5db3fc4964b6060a43e1c4dabe8
@@ -54,10 +54,10 @@
       sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , WorkflowCall =
     ./schemas/events/WorkflowCall.dhall
-      sha256:cafacd2c02714f9e00ad420661a13bf80bab0921f99601ff38338e6eaefc1ad9
+      sha256:a6e7394c978758825715c64ab16b71f252822d046064a3fc776dadad7f5989e8
 , WorkflowDispatch =
     ./schemas/events/WorkflowDispatch.dhall
-      sha256:f3243d9aaa461034e9844d51fb4e2c646a956ea3df2d1f12ae31e16ee29b1a55
+      sha256:06be8e394f08af310458f7372f524d855049a6944aa683d2bb950c9455df3472
 , WorkflowRun =
     ./schemas/events/WorkflowRun.dhall
       sha256:e9b84d6d0609aca151aa330fd150bc6a9fde057235dec7ca594d6369c9165bb1

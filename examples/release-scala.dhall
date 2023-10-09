@@ -1,6 +1,6 @@
 let GithubActions =
       ../package.dhall
-        sha256:2a07d666382ef341c55d9df95a08959c932ac7c0a3829774a7544c8237aa201c
+        sha256:ec404aa0b9aee8cf410cb588a46f71257e292c93b61bcc00d4f4dc85f92974bd
 
 let setup =
       [ GithubActions.steps.actions/checkout
